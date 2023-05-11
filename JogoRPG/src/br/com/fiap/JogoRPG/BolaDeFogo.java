@@ -11,4 +11,9 @@ public class BolaDeFogo implements Visual {
 	public BolaDeFogo(int poder) {
 		this.poder = poder;
 	}
+
+	@Override
+	public void mover(int x, int y) {
+		
+	}
 }

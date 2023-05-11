@@ -10,4 +10,8 @@ public class Guerreiro extends Jogador implements Visual {
 		super(nome);
 	}
 
+	@Override
+	public void mover(int x, int y) {
+	}
+
 }

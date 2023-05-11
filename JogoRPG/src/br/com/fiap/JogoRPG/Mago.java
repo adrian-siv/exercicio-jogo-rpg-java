@@ -13,4 +13,9 @@ public class Mago extends Jogador implements Visual {
 		this.mp = mp;
 	}
 
+	@Override
+	public void mover(int x, int y) {
+
+	}
+
 }
