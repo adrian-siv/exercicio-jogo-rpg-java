@@ -3,10 +3,8 @@ package br.com.fiap.JogoRPG;
 public class Jogo {
 
 	public static void main(String[] args) {
-		Jogador jogador1 = new Jogador("Joao");
-		Jogador jogador2 = new Jogador();
-
-		// jogador1.nome = "Joao";
+		Guerreiro jogador1 = new Guerreiro("Joao");
+		Mago jogador2 = new Mago();
 
 		mostrarJogador(jogador1);
 		jogador1.receberDano(10);
