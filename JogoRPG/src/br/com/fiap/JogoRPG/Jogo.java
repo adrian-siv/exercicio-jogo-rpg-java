@@ -5,7 +5,16 @@ public class Jogo {
 	public static void main(String[] args) {
 		Guerreiro jogador1 = new Guerreiro("Joao");
 		Mago jogador2 = new Mago();
-
+		var dragao = new Dragao();
+		var bolaDeFogo = new BolaDeFogo();
+		
+		var fase = new Fase();
+		
+		fase.carregar(jogador1);
+		fase.carregar(jogador2);
+		fase.carregar(dragao);
+		fase.carregar(bolaDeFogo);
+		
 		mostrarJogador(jogador1);
 		jogador1.receberDano(10);
 		mostrarJogador(jogador1);
