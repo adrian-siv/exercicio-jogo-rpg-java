@@ -10,7 +10,7 @@ public abstract class Jogador {
 		System.out.println("Criando jogador " + nome);
 	}
 	
-	public Jogador(String nome) { //parametro
+	public Jogador(String nome) {
 		System.out.println("Criando jogador " + nome);
 		this.nome = nome;
 	}
