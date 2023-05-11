@@ -1,6 +1,6 @@
 package br.com.fiap.JogoRPG;
 
-public class Guerreiro extends Jogador {
+public class Guerreiro extends Jogador implements Visual {
 
 	public Guerreiro() {
 

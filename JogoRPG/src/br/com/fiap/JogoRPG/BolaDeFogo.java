@@ -1,6 +1,6 @@
 package br.com.fiap.JogoRPG;
 
-public class BolaDeFogo {
+public class BolaDeFogo implements Visual {
 
 	private int poder;
 

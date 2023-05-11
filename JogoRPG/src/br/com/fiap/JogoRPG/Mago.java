@@ -1,6 +1,6 @@
 package br.com.fiap.JogoRPG;
 
-public class Mago extends Jogador {
+public class Mago extends Jogador implements Visual {
 
 	private int mp;
 
